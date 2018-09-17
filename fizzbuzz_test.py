@@ -1,8 +1,8 @@
-import unittest
+from unittest import TestCase
 from fizzbuzz import fizzbuzz
 
 
-class fizzbuzzTest(unittest.TestCase):
+class fizzbuzzTest(TestCase):
 
     def test_non_list_inputs(self):
         self.assertEqual(fizzbuzz(5, 8), "Invalid input")
